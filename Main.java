@@ -1,33 +1,33 @@
-пакет  ru.mirea.gibo0119.pr6 ;
+package ru.mirea.gibo0119.pr6;
 
-import  java.util. * ;
+import java.util.*;
 
-public  class  Main {
-    public  static  void  main ( String [] args ) {
-        Система . из . println ( " Какую чашечку кофе желаете приобрести: 1) Маленький, 2) Средний, 3) Большой? " );
-        Система . из . println ( " Для выбора чашечки введите соответствующую цифру (1, 2 3) " );
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Какую чашечку кофе желаете приобрести: 1) Small, 2) Middle, 3) Big?");
+        System.out.println("Для выбора чашечки введите соответствующую цифру (1, 2 или 3)");
 
-        Scanner sc =  новый  сканер ( System . In);
+        Scanner sc = new Scanner(System.in);
 
-        Размер кофе1 =  Размер кофе . Маленький ;
-        Размер кофе2 =  Размер кофе . Средний ;
-        Размер кофе3 =  Размер кофе . Большой ;
+        CoffeeSize coffee1 = CoffeeSize.Small;
+        CoffeeSize coffee2 = CoffeeSize.Middle;
+        CoffeeSize coffee3 = CoffeeSize.Big;
 
-        внутренняя чашка = сбн . nextInt ();
+        int cup = sc.nextInt();
 
-        if (чашка ==  1 ) {
-            Система . из . println (coffee1);
-            Система . из . println ( " Насладитесь чашечкой кофе объёмом 100 мл " );
+        if (cup == 1) {
+            System.out.println(coffee1);
+            System.out.println("Насладитесь чашечкой кофе объёмом 100 мл");
         }
 
-        if (чашка ==  2 ) {
-            Система . из . println (кофе2);
-            Система . из . println ( " Насладитесь чашечкой кофе объёмом 200 мл " );
+        if (cup == 2) {
+            System.out.println(coffee2);
+            System.out.println("Насладитесь чашечкой кофе объёмом 200 мл");
         }
 
-        if (cup ==  3 ) {
-            Система . из . println (coffee3);
-            Система . из . println ( " Насладитесь чашечкой кофе объёмом 300 мл " );
+        if (cup == 3) {
+            System.out.println(coffee3);
+            System.out.println("Насладитесь чашечкой кофе объёмом 300 мл");
         }
     }
 }
