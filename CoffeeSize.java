@@ -1,7 +1,9 @@
-пакет  ru.mirea.gibo0119.pr6 ;
+CoffeeSize.java
 
-public  enum  CoffeeSize {
-    Маленький ,
-    Средний ,
-    Большой
+package ru.mirea.gibo0119.pr6;
+
+public enum CoffeeSize {
+    Small,
+    Middle,
+    Big
 }
